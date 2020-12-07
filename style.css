@@ -1,0 +1,147 @@
+body {
+background: #fff4eb;
+font-family: 'Montserrat', sans-serif;
+margin: 0;
+border-bottom: 70px solid #9D0E14;
+}
+
+.nav {
+background: #9D0E14;
+height: 10em;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+h1 {
+  color: #fff4eb;
+  margin: 0 auto;
+  font-weight: 600;
+  letter-spacing: 7px;
+  font-size: 3rem;
+  padding: .5em;
+}
+
+h3 {
+  color:#9D0E14;
+  font-size: 1.7rem;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 2.5em;
+}
+
+.menu-text {
+  color: #9D0E14;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+
+.pandemic-restriction {
+  color: #fff4eb;
+  font-weight: 300;
+  letter-spacing: 4px;
+  font-size: .5rem;
+}
+
+.dagron-menu-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.static-menu {
+  width: 70%;
+  text-align: center;
+}
+
+.entree-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sides-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-ons-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.entree-item {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.side-item {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.addon-item {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+background: #9D0E14;  
+height: 2em;
+}
+
+.dragon-img {
+  margin-top: 175px;
+  height: 700px;
+}
+
+/* .start-oder-container {
+  display: flex;
+  justify-self: center;
+} */
+
+.oder-btn {
+  background: #9D0E14;
+  color: #fff4eb;
+  letter-spacing: 5px;
+  padding: .7em 1em;
+  margin: 100px 100px 0 676px;
+}
+
+.fortune-cookie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fortune-quote{
+  font-size: 1.5rem;
+}
+
+.fortune-cookie-btn {
+  text-align: center;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+}
+
+.fortune-btn {
+  background: #fff4eb;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fortune-btn:focus {
+  outline: none;
+}
